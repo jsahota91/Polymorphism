@@ -18,3 +18,10 @@ C:\Users\user\source\repos\Ex_Files_Csharp_TestDriven\Exercise Files\Ch04\04_01\
 C:\Users\user\source\repos\Ex_Files_Csharp_TestDriven\Exercise Files\Ch04\04_01\Start\Polymorphism\Polymorphism\obj\Debug\Polymorphism.csproj.CoreCompileInputs.cache
 C:\Users\user\source\repos\Ex_Files_Csharp_TestDriven\Exercise Files\Ch04\04_01\Start\Polymorphism\Polymorphism\obj\Debug\Polymorphism.exe
 C:\Users\user\source\repos\Ex_Files_Csharp_TestDriven\Exercise Files\Ch04\04_01\Start\Polymorphism\Polymorphism\obj\Debug\Polymorphism.pdb
+C:\Users\user\source\repos\Polymorphism\Polymorphism\bin\Debug\Polymorphism.exe.config
+C:\Users\user\source\repos\Polymorphism\Polymorphism\bin\Debug\Polymorphism.exe
+C:\Users\user\source\repos\Polymorphism\Polymorphism\bin\Debug\Polymorphism.pdb
+C:\Users\user\source\repos\Polymorphism\Polymorphism\obj\Debug\Polymorphism.csprojAssemblyReference.cache
+C:\Users\user\source\repos\Polymorphism\Polymorphism\obj\Debug\Polymorphism.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Polymorphism\Polymorphism\obj\Debug\Polymorphism.exe
+C:\Users\user\source\repos\Polymorphism\Polymorphism\obj\Debug\Polymorphism.pdb

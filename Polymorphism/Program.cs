@@ -5,44 +5,49 @@ namespace Polymorphism
 {
     public class Employee
     {
-        public virtual void CalculateWeeklySalary(int weeklyHours, int wage)
+        public virtual string CalculateWeeklySalary(int weeklyHours, int wage)
         {
             var salary = 40 * wage;
-            Console.WriteLine("\nThis ANGRY EMPLOYEE worked {0} hrs. " + 
-                              "Paid for 40 hrs at $ {1}" +
-                              "/hr = ${2} \n", weeklyHours, wage, salary);
+            string result = $"This ANGRY EMPLOYEE worked {weeklyHours} hrs. " +
+                            $"Paid for 40 hrs at $ {wage}" +
+                            $"/hr = ${salary}";
+            Console.WriteLine("\n" + result + " \n");
             Console.WriteLine("---------------------------------------------\n");
+            return result;
         }
     }
 
     public class Contractor : Employee
     {
-        public override void CalculateWeeklySalary(int weeklyHours, int wage)
+        public override string CalculateWeeklySalary(int weeklyHours, int wage)
         {
             var salary = weeklyHours * wage;
-            Console.WriteLine("\nThis HAPPY CONTRACTOR worked {0} hrs. " + 
-                              "Paid for {0} hrs at $ {1}" +
-                              "/hr = ${2} ", weeklyHours, wage, salary);
-            Console.WriteLine("---------------------------------------------\n");
+            string result = $"This HAPPY CONTRACTOR worked {weeklyHours} hrs. " +
+                            $"Paid for {weeklyHours} hrs at $ {wage}" +
+                            $"/hr = ${salary} ";
+            Console.WriteLine("\n" + result + " \n");
+            return result;
         }
     }
 
 
     public class Program
     {
-
         private static void Main(string[] args)
         {
             const int hours = 55, wage = 70;
-            List<Employee> employees = GetEmployees();
+            List<Employee> employees = Utils.GetEmployees();
 
             foreach (var e in employees)
             {
                 e.CalculateWeeklySalary(hours, wage);
             }
         }
+    }
 
-        private static List<Employee> GetEmployees()
+    public static class Utils
+    {
+        public static List<Employee> GetEmployees()
         {
             var someEmployee = new Employee();
             var someContractor = new Contractor();
