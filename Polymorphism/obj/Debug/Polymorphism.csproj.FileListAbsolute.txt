@@ -25,3 +25,6 @@ C:\Users\user\source\repos\Polymorphism\Polymorphism\obj\Debug\Polymorphism.cspr
 C:\Users\user\source\repos\Polymorphism\Polymorphism\obj\Debug\Polymorphism.csproj.CoreCompileInputs.cache
 C:\Users\user\source\repos\Polymorphism\Polymorphism\obj\Debug\Polymorphism.exe
 C:\Users\user\source\repos\Polymorphism\Polymorphism\obj\Debug\Polymorphism.pdb
+C:\Users\user\source\repos\Polymorphism\Polymorphism\bin\Debug\Moq.dll
+C:\Users\user\source\repos\Polymorphism\Polymorphism\bin\Debug\Moq.xml
+C:\Users\user\source\repos\Polymorphism\Polymorphism\obj\Debug\Polymorphism.csproj.CopyComplete

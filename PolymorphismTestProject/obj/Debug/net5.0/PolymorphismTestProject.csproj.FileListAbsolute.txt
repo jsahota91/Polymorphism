@@ -99,3 +99,5 @@ C:\Users\user\source\repos\Polymorphism\PolymorphismTestProject\obj\Debug\net5.0
 C:\Users\user\source\repos\Polymorphism\PolymorphismTestProject\obj\Debug\net5.0\ref\PolymorphismTestProject.dll
 C:\Users\user\source\repos\Polymorphism\PolymorphismTestProject\obj\Debug\net5.0\PolymorphismTestProject.pdb
 C:\Users\user\source\repos\Polymorphism\PolymorphismTestProject\obj\Debug\net5.0\PolymorphismTestProject.genruntimeconfig.cache
+C:\Users\user\source\repos\Polymorphism\PolymorphismTestProject\bin\Debug\net5.0\Moq.dll
+C:\Users\user\source\repos\Polymorphism\PolymorphismTestProject\bin\Debug\net5.0\Moq.xml
